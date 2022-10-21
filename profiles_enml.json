@@ -1,0 +1,296 @@
+{
+  "docName": "Nachname Vorname",
+  "meAddress": "METESTMARTA20",
+  "profiles": [
+    {
+      "name": "GU norm. Frau",
+      "parameters": [
+        {
+          "providerNo": -1,
+          "shortName": "CHOL",
+          "edifactNo": 87
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GGT",
+          "edifactNo": 58
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GLU",
+          "edifactNo": 80
+        },
+        {
+          "providerNo": -1,
+          "shortName": "HDL",
+          "edifactNo": 88
+        },
+        {
+          "providerNo": -1,
+          "shortName": "KBB",
+          "edifactNo": 2219
+        },
+        {
+          "providerNo": -1,
+          "shortName": "TRI",
+          "edifactNo": 86
+        }
+      ]
+    },
+    {
+      "name": "GU norm. Mann",
+      "parameters": [
+        {
+          "providerNo": -1,
+          "shortName": "CHOL",
+          "edifactNo": 87
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GGT",
+          "edifactNo": 58
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GLU",
+          "edifactNo": 80
+        },
+        {
+          "providerNo": -1,
+          "shortName": "HDL",
+          "edifactNo": 88
+        },
+        {
+          "providerNo": -1,
+          "shortName": "TRI",
+          "edifactNo": 86
+        }
+      ]
+    },
+    {
+      "name": "Mukipa 1 - bis 16. SSW - MKP1",
+      "parameters": [
+        {
+          "providerNo": 20,
+          "shortName": "BGS",
+          "edifactNo": 163
+        },
+        {
+          "providerNo": 20,
+          "shortName": "HIVS",
+          "edifactNo": 160
+        },
+        {
+          "providerNo": 20,
+          "shortName": "KBB",
+          "edifactNo": 2219
+        },
+        {
+          "providerNo": 20,
+          "shortName": "MKP1",
+          "edifactNo": 4690
+        },
+        {
+          "providerNo": 20,
+          "shortName": "RUB-IGG",
+          "edifactNo": 130
+        },
+        {
+          "providerNo": 20,
+          "shortName": "RUB-IGM",
+          "edifactNo": 131
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TOXO-IGG",
+          "edifactNo": 468
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TOXO-IGM",
+          "edifactNo": 469
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TPHA",
+          "edifactNo": 125
+        }
+      ]
+    },
+    {
+      "name": "Mukipa 2 - 25.-28. SSW - MKP2",
+      "parameters": [
+        {
+          "providerNo": 20,
+          "shortName": "BG-AKST",
+          "edifactNo": 164
+        },
+        {
+          "providerNo": 20,
+          "shortName": "HBS-AG",
+          "edifactNo": 141
+        },
+        {
+          "providerNo": 20,
+          "shortName": "KBB",
+          "edifactNo": 2219
+        },
+        {
+          "providerNo": 20,
+          "shortName": "MKP2",
+          "edifactNo": 4691
+        },
+        {
+          "providerNo": 20,
+          "shortName": "OGTT75M",
+          "edifactNo": 4535
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TOXO-IGG",
+          "edifactNo": 468
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TOXO-IGM",
+          "edifactNo": 469
+        }
+      ]
+    },
+    {
+      "name": "Mukipa 2 - 25.-28. SSW - OHNE OGTT",
+      "parameters": [
+        {
+          "providerNo": 20,
+          "shortName": "BG-AKST",
+          "edifactNo": 164
+        },
+        {
+          "providerNo": 20,
+          "shortName": "HBS-AG",
+          "edifactNo": 141
+        },
+        {
+          "providerNo": 20,
+          "shortName": "KBB",
+          "edifactNo": 2219
+        },
+        {
+          "providerNo": 20,
+          "shortName": "MKP2",
+          "edifactNo": 4691
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TOXO-IGG",
+          "edifactNo": 468
+        },
+        {
+          "providerNo": 20,
+          "shortName": "TOXO-IGM",
+          "edifactNo": 469
+        }
+      ]
+    },
+    {
+      "name": "Profil 1",
+      "parameters": [
+        {
+          "providerNo": -1,
+          "shortName": "AP",
+          "edifactNo": 67
+        },
+        {
+          "providerNo": -1,
+          "shortName": "CHOL",
+          "edifactNo": 87
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GGT",
+          "edifactNo": 58
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GLU",
+          "edifactNo": 80
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GPT",
+          "edifactNo": 57
+        },
+        {
+          "providerNo": -1,
+          "shortName": "HS",
+          "edifactNo": 79
+        },
+        {
+          "providerNo": -1,
+          "shortName": "KBB",
+          "edifactNo": 2219
+        },
+        {
+          "providerNo": -1,
+          "shortName": "KRE",
+          "edifactNo": 540
+        },
+        {
+          "providerNo": -1,
+          "shortName": "TRI",
+          "edifactNo": 86
+        }
+      ]
+    },
+    {
+      "name": "Profil 2",
+      "parameters": [
+        {
+          "providerNo": -1,
+          "shortName": "CHOL",
+          "edifactNo": 87
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GGT",
+          "edifactNo": 58
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GLU",
+          "edifactNo": 80
+        },
+        {
+          "providerNo": -1,
+          "shortName": "GOT",
+          "edifactNo": 56
+        },
+        {
+          "providerNo": -1,
+          "shortName": "HS",
+          "edifactNo": 79
+        },
+        {
+          "providerNo": -1,
+          "shortName": "KBB",
+          "edifactNo": 2219
+        },
+        {
+          "providerNo": -1,
+          "shortName": "KRE",
+          "edifactNo": 540
+        },
+        {
+          "providerNo": -1,
+          "shortName": "LDH",
+          "edifactNo": 59
+        },
+        {
+          "providerNo": -1,
+          "shortName": "TRI",
+          "edifactNo": 86
+        }
+      ]
+    }
+  ]
+}
