@@ -52,15 +52,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4f94fa09c2aeea5b8839e414b7b841bf429fd25b9c522116ac97ee87856d88b2"
 
 [[package]]
-name = "hashmap_test"
-version = "0.1.0"
-dependencies = [
- "inquire",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "inquire"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -161,6 +152,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725"
 dependencies = [
  "unicode-ident",
+]
+
+[[package]]
+name = "profile_converter"
+version = "0.1.0"
+dependencies = [
+ "inquire",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]

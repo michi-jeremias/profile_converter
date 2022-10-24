@@ -1,5 +1,5 @@
 [package]
-name = "hashmap_test"
+name = "profile_converter"
 version = "0.1.0"
 edition = "2021"
 
