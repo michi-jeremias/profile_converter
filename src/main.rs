@@ -45,90 +45,77 @@ impl Parameter {
 }
 
 fn main() {
-    let dir_entry = fs::read_dir("./").unwrap();
-    // let files = dir_entry
-    //     .filter_map(|entry|
-    //         {
-    //             entry.ok()
-    //             .and_then(|e| e.path().file_name()
-    //                 .and_then(|n| n.to_str().map(|s| String::from(s)))
-    //             )
-    //         })
-    //     .collect::<Vec<String>>();
 
-    let files: Vec<&str> = dir_entry
-        .filter_map(|entry|
-            {
-                entry.ok()
-                .and_then(|e| e.path().file_name()
-                    .and_then(|n| n.to_str())
-                )
-            })
+    let files: Vec<String> = get_files_in_dir("./");
+    let mut files_json: Vec<&str> = files.iter()
+        .filter(|s| s.contains(".json"))
+        .map(|s| &**s)
         .collect();
-
-
-    let option_quit = "Quit";
-    let mut json_options: Vec<&str> = files.into_iter()
-        .filter(|element| element.contains(".json")).collect();
-    json_options.push(&option_quit);
+    files_json.push("Quit");
 
     // Select profile
     let json_string: String;
-    let inquire_file_select = Select::new("Select profiles.json to translate:", json_options)
+    let inquire_file_select = Select::new("Select profiles.json to translate:", files_json)
         .prompt();
     match inquire_file_select {
-        Ok(selection) => {
-            if selection.eq("Quit") {
-                std::process::exit(0);
-            } else {
-                json_string = fs::read_to_string(selection).expect("could not read file");
-            };
-        },
-        Err(error) => panic!("Error: {error}"),
+        Ok("Quit") => std::process::exit(0),
+        Ok(selection) => json_string = fs::read_to_string(selection).expect("could not read file"),
+        Err(error) => panic!("Error: {}", error),
     };
 
     // Select translator
-    let mut translator_options: Vec<&str> = files.into_iter()
-        .filter(|element| element.contains(".trans"))
+    let mut files_trans: Vec<&str> = files.iter()
+        .filter(|s| s.contains(".trans"))
+        .map(|s| &**s)
         .collect();
-    translator_options.push(&option_quit);
-
-    let inquire_translator_select = Select::new("Select target translation:", translator_options)
+    files_trans.push("Quit");
+    let inquire_translator_select = Select::new("Select target translation:", files_trans)
         .prompt();
 
     let parameter_map: HashMap<String, String>;
     match inquire_translator_select {
-        Ok(selection) => {
-            if selection.eq("Quit") {
-                std::process::exit(0);
-            } else {
-                parameter_map = load_parameter_map(selection);
-            }
-        },
-        Err(error) => panic!("Error: {error}"),
+        Ok("Quit") => std::process::exit(0),
+        Ok(selection) => parameter_map = load_parameter_map(selection),
+        Err(error) => panic!("Error: {}", error),
     };
 
     // Select provider
-    let mut provider_options: Vec<&str> = files.into_iter()
-        .filter(|element| element.contains(".prov"))
+    let mut files_prov: Vec<&str> = files.iter()
+        .filter(|s| s.contains(".prov"))
+        .map(|s| &**s)
         .collect();
-    provider_options.push(&option_quit);
-    let inquire_provider_select = Select::new("Select target provider: ", provider_options).prompt();
+    files_prov.push("Quit");
+    let inquire_provider_select = Select::new("Select target provider: ", files_prov)
+        .prompt();
     let target_provider: Result<i8, ParseIntError>;
     match inquire_provider_select {
         Ok("Quit") => std::process::exit(0),
         Ok(choice) => target_provider = load_provider(choice),
-        Err(error) => panic!("Error: {error}"),
+        Err(error) => panic!("Error: {}", error),
     };
 
-    let mut profiles: Profiles = deserialize_profiles(&json_string);
-    update_profiles(&mut profiles, &parameter_map, &target_provider.unwrap());
-    serialize_profiles(&profiles);
+
+    match deserialize_profiles(&json_string) {
+        Ok(mut profiles) => {
+            update_profiles(&mut profiles, &parameter_map, &target_provider.unwrap());
+            serialize_profiles(&profiles);
+        },
+        Err(error) => println!("Error: {}", error),
+    };
 }
 
-fn deserialize_profiles(json_string: &String) -> Profiles {
-    let profiles: Profiles = serde_json::from_str(&json_string).expect("JSON was not properly formatted.");
-    profiles
+
+fn get_files_in_dir(path: &str) -> Vec<String> {
+    let paths = fs::read_dir(path)
+        .unwrap()
+        .filter_map(|e| e.ok())
+        .map(|e| e.path().to_string_lossy().into_owned())
+        .collect();
+    return paths;
+}
+
+fn deserialize_profiles(json_string: &String) -> Result<Profiles, serde_json::Error> {
+    serde_json::from_str(json_string)
 }
 
 fn update_profiles(profiles: &mut Profiles, parameter_map: &HashMap<String, String>, provider: &i8) {
@@ -141,13 +128,12 @@ fn update_profiles(profiles: &mut Profiles, parameter_map: &HashMap<String, Stri
 
             match new_name {
                 None => println!("Edifact {:?}: no match found (profile: {:?})", &parameter.edifactNo, &profile.name),
-                Some(t) => {
-                    parameter.set_short_name(t);
+                Some(name) => {
+                    parameter.set_short_name(name);
                 },
             };
         }
     };
-
 }
 
 fn serialize_profiles(profiles: &Profiles) {
