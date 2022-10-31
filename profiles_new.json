@@ -1,1 +1,296 @@
-{"docName":"Transfer","meAddress":"METRANSFER","profiles":[{"name":"MUKIPA 1 - bis 16. SSW","parameters":[{"providerNo":12,"shortName":"BG","edifactNo":null},{"providerNo":12,"shortName":"HIV","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"MKP1","edifactNo":null},{"providerNo":12,"shortName":"RÖTEL","edifactNo":null},{"providerNo":12,"shortName":"RÖIGM","edifactNo":null},{"providerNo":12,"shortName":"SD34","edifactNo":null},{"providerNo":12,"shortName":"TOXO","edifactNo":null},{"providerNo":12,"shortName":"TOXIGM","edifactNo":null},{"providerNo":12,"shortName":"TPHA","edifactNo":null}]},{"name":"C2 H5 OH","parameters":[{"providerNo":12,"shortName":"CDT","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"OT","edifactNo":null},{"providerNo":12,"shortName":"PT","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null}]},{"name":"DIABETES","parameters":[{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"HBA1C","edifactNo":null},{"providerNo":12,"shortName":"HDL","edifactNo":null},{"providerNo":12,"shortName":"HS","edifactNo":null},{"providerNo":12,"shortName":"KRES","edifactNo":null},{"providerNo":12,"shortName":"LDL","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null}]},{"name":"GER","parameters":[{"providerNo":12,"shortName":"PTT","edifactNo":null},{"providerNo":12,"shortName":"PTZ","edifactNo":null}]},{"name":"GU norm. Frau","parameters":[{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"HDL","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null}]},{"name":"GU norm. Mann","parameters":[{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"HDL","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null}]},{"name":"HORMONE","parameters":[{"providerNo":12,"shortName":"E2","edifactNo":null},{"providerNo":12,"shortName":"FSH","edifactNo":null},{"providerNo":12,"shortName":"LH","edifactNo":null},{"providerNo":12,"shortName":"PROG","edifactNo":null},{"providerNo":12,"shortName":"HPRL","edifactNo":null},{"providerNo":12,"shortName":"PARHOR","edifactNo":null},{"providerNo":12,"shortName":"T","edifactNo":null},{"providerNo":12,"shortName":"VIT D3","edifactNo":null}]},{"name":"Impftiter","parameters":[{"providerNo":12,"shortName":"HAV-AKQU","edifactNo":null},{"providerNo":12,"shortName":"HBSAK","edifactNo":null}]},{"name":"LABORINST MÄNNL","parameters":[{"providerNo":12,"shortName":"CA","edifactNo":null},{"providerNo":12,"shortName":"CL","edifactNo":null},{"providerNo":12,"shortName":"FPSA","edifactNo":null},{"providerNo":12,"shortName":"K","edifactNo":null},{"providerNo":12,"shortName":"NA","edifactNo":null},{"providerNo":12,"shortName":"PSA","edifactNo":null},{"providerNo":12,"shortName":"SD34","edifactNo":null}]},{"name":"LABORINST WEIBL","parameters":[{"providerNo":12,"shortName":"CA","edifactNo":null},{"providerNo":12,"shortName":"CL","edifactNo":null},{"providerNo":12,"shortName":"FERRIT","edifactNo":null},{"providerNo":12,"shortName":"K","edifactNo":null},{"providerNo":12,"shortName":"NA","edifactNo":null},{"providerNo":12,"shortName":"SD34","edifactNo":null}]},{"name":"LEBERFUNKTION","parameters":[{"providerNo":12,"shortName":"AP","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"PT","edifactNo":null}]},{"name":"MAGENBYPASS","parameters":[{"providerNo":12,"shortName":"SALB","edifactNo":null},{"providerNo":12,"shortName":"AP","edifactNo":null},{"providerNo":12,"shortName":"VITB12","edifactNo":null},{"providerNo":12,"shortName":"CA","edifactNo":null},{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"CL","edifactNo":null},{"providerNo":12,"shortName":"CRP","edifactNo":null},{"providerNo":12,"shortName":"FE","edifactNo":null},{"providerNo":12,"shortName":"FERRIT","edifactNo":null},{"providerNo":12,"shortName":"FOLS","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"PT","edifactNo":null},{"providerNo":12,"shortName":"HBA1C","edifactNo":null},{"providerNo":12,"shortName":"HDL","edifactNo":null},{"providerNo":12,"shortName":"HS","edifactNo":null},{"providerNo":12,"shortName":"K","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"KRES","edifactNo":null},{"providerNo":12,"shortName":"LDL","edifactNo":null},{"providerNo":12,"shortName":"NA","edifactNo":null},{"providerNo":12,"shortName":"PARHOR","edifactNo":null},{"providerNo":12,"shortName":"PTT","edifactNo":null},{"providerNo":12,"shortName":"PTZ","edifactNo":null},{"providerNo":12,"shortName":"SD34","edifactNo":null},{"providerNo":12,"shortName":"GEW","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null},{"providerNo":12,"shortName":"TSH","edifactNo":null},{"providerNo":12,"shortName":"VIT D3","edifactNo":null}]},{"name":"MAGENBYPASS - NACHSORGE","parameters":[{"providerNo":12,"shortName":"SALB","edifactNo":null},{"providerNo":12,"shortName":"AP","edifactNo":null},{"providerNo":12,"shortName":"VITB12","edifactNo":null},{"providerNo":12,"shortName":"CA","edifactNo":null},{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"CL","edifactNo":null},{"providerNo":12,"shortName":"CRP","edifactNo":null},{"providerNo":12,"shortName":"FE","edifactNo":null},{"providerNo":12,"shortName":"FERRIT","edifactNo":null},{"providerNo":12,"shortName":"FOLS","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"PT","edifactNo":null},{"providerNo":12,"shortName":"HBA1C","edifactNo":null},{"providerNo":12,"shortName":"HDL","edifactNo":null},{"providerNo":12,"shortName":"HS","edifactNo":null},{"providerNo":12,"shortName":"K","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"KRES","edifactNo":null},{"providerNo":12,"shortName":"LDL","edifactNo":null},{"providerNo":12,"shortName":"NA","edifactNo":null},{"providerNo":12,"shortName":"PARHOR","edifactNo":null},{"providerNo":12,"shortName":"SD34","edifactNo":null},{"providerNo":12,"shortName":"GEW","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null},{"providerNo":12,"shortName":"TSH","edifactNo":null},{"providerNo":12,"shortName":"VIT D3","edifactNo":null}]},{"name":"MED SPIEGEL","parameters":[{"providerNo":12,"shortName":"CARBA","edifactNo":null},{"providerNo":12,"shortName":"DIGIT","edifactNo":null},{"providerNo":12,"shortName":"LAMOTR","edifactNo":null},{"providerNo":12,"shortName":"LI","edifactNo":null},{"providerNo":12,"shortName":"OXCARB","edifactNo":null}]},{"name":"MUKIPA 16","parameters":[{"providerNo":12,"shortName":"MKP1","edifactNo":null}]},{"name":"MUKIPA 28","parameters":[{"providerNo":12,"shortName":"MKP2","edifactNo":null}]},{"name":"OP Vorbereitung Infektionsstatus","parameters":[{"providerNo":12,"shortName":"HBSAG","edifactNo":null},{"providerNo":12,"shortName":"HEPC","edifactNo":null},{"providerNo":12,"shortName":"HIV","edifactNo":null}]},{"name":"PRIM LEEB","parameters":[{"providerNo":12,"shortName":"AP","edifactNo":null},{"providerNo":12,"shortName":"CRP","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"PT","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"RF","edifactNo":null}]},{"name":"Profil 1","parameters":[{"providerNo":12,"shortName":"AP","edifactNo":null},{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"PT","edifactNo":null},{"providerNo":12,"shortName":"HS","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"KRES","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null}]},{"name":"Profil 2","parameters":[{"providerNo":12,"shortName":"CHOL","edifactNo":null},{"providerNo":12,"shortName":"GT","edifactNo":null},{"providerNo":12,"shortName":"BZ","edifactNo":null},{"providerNo":12,"shortName":"OT","edifactNo":null},{"providerNo":12,"shortName":"HS","edifactNo":null},{"providerNo":12,"shortName":"KBB","edifactNo":null},{"providerNo":12,"shortName":"KRES","edifactNo":null},{"providerNo":12,"shortName":"LDH","edifactNo":null},{"providerNo":12,"shortName":"TRIR","edifactNo":null}]},{"name":"PTZ","parameters":[{"providerNo":12,"shortName":"PTZ","edifactNo":null}]},{"name":"RHEUMA","parameters":[{"providerNo":12,"shortName":"ANA","edifactNo":null},{"providerNo":12,"shortName":"ASLO","edifactNo":null},{"providerNo":12,"shortName":"CANCA","edifactNo":null},{"providerNo":12,"shortName":"CCP","edifactNo":null},{"providerNo":12,"shortName":"CRP","edifactNo":null},{"providerNo":12,"shortName":"EPHO","edifactNo":null},{"providerNo":12,"shortName":"HLAB27","edifactNo":null},{"providerNo":12,"shortName":"HS","edifactNo":null},{"providerNo":12,"shortName":"RF","edifactNo":null}]},{"name":"SCHILDDRÜSE","parameters":[{"providerNo":12,"shortName":"SD34","edifactNo":null},{"providerNo":12,"shortName":"SDF3F4","edifactNo":null},{"providerNo":12,"shortName":"TAK","edifactNo":null},{"providerNo":12,"shortName":"TRAK","edifactNo":null},{"providerNo":12,"shortName":"TSH","edifactNo":null}]},{"name":"TU MARKER","parameters":[{"providerNo":12,"shortName":"AFP","edifactNo":null},{"providerNo":12,"shortName":"CA125","edifactNo":null},{"providerNo":12,"shortName":"CA153","edifactNo":null},{"providerNo":12,"shortName":"CA199","edifactNo":null},{"providerNo":12,"shortName":"CEA","edifactNo":null}]}]}
+{
+	"docName": "Nachname Vorname",
+	"meAddress": "METESTMARTA20",
+	"profiles": [
+		{
+			"name": "GU norm. Frau",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "CHOL",
+					"edifactNo": 87
+				},
+				{
+					"providerNo": 12,
+					"shortName": "GT",
+					"edifactNo": 58
+				},
+				{
+					"providerNo": 12,
+					"shortName": "BZ",
+					"edifactNo": 80
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HDL",
+					"edifactNo": 88
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KBB",
+					"edifactNo": 2219
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TRIR",
+					"edifactNo": 86
+				}
+			]
+		},
+		{
+			"name": "GU norm. Mann",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "CHOL",
+					"edifactNo": 87
+				},
+				{
+					"providerNo": 12,
+					"shortName": "GT",
+					"edifactNo": 58
+				},
+				{
+					"providerNo": 12,
+					"shortName": "BZ",
+					"edifactNo": 80
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HDL",
+					"edifactNo": 88
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TRIR",
+					"edifactNo": 86
+				}
+			]
+		},
+		{
+			"name": "Mukipa 1 - bis 16. SSW - MKP1",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "BG",
+					"edifactNo": 163
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HIV",
+					"edifactNo": 160
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KBB",
+					"edifactNo": 2219
+				},
+				{
+					"providerNo": 12,
+					"shortName": "MKP1",
+					"edifactNo": 4690
+				},
+				{
+					"providerNo": 12,
+					"shortName": "RÖTEL",
+					"edifactNo": 130
+				},
+				{
+					"providerNo": 12,
+					"shortName": "RÖIGM",
+					"edifactNo": 131
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TOXO",
+					"edifactNo": 468
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TOXIGM",
+					"edifactNo": 469
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TPHA",
+					"edifactNo": 125
+				}
+			]
+		},
+		{
+			"name": "Mukipa 2 - 25.-28. SSW - MKP2",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "AKS",
+					"edifactNo": 164
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HBSAG",
+					"edifactNo": 141
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KBB",
+					"edifactNo": 2219
+				},
+				{
+					"providerNo": 12,
+					"shortName": "MKP2",
+					"edifactNo": 4691
+				},
+				{
+					"providerNo": 12,
+					"shortName": "OGTT75M",
+					"edifactNo": 4535
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TOXO",
+					"edifactNo": 468
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TOXIGM",
+					"edifactNo": 469
+				}
+			]
+		},
+		{
+			"name": "Mukipa 2 - 25.-28. SSW - OHNE OGTT",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "AKS",
+					"edifactNo": 164
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HBSAG",
+					"edifactNo": 141
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KBB",
+					"edifactNo": 2219
+				},
+				{
+					"providerNo": 12,
+					"shortName": "MKP2",
+					"edifactNo": 4691
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TOXO",
+					"edifactNo": 468
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TOXIGM",
+					"edifactNo": 469
+				}
+			]
+		},
+		{
+			"name": "Profil 1",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "AP",
+					"edifactNo": 67
+				},
+				{
+					"providerNo": 12,
+					"shortName": "CHOL",
+					"edifactNo": 87
+				},
+				{
+					"providerNo": 12,
+					"shortName": "GT",
+					"edifactNo": 58
+				},
+				{
+					"providerNo": 12,
+					"shortName": "BZ",
+					"edifactNo": 80
+				},
+				{
+					"providerNo": 12,
+					"shortName": "PT",
+					"edifactNo": 57
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HS",
+					"edifactNo": 79
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KBB",
+					"edifactNo": 2219
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KRES",
+					"edifactNo": 540
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TRIR",
+					"edifactNo": 86
+				}
+			]
+		},
+		{
+			"name": "Profil 2",
+			"parameters": [
+				{
+					"providerNo": 12,
+					"shortName": "CHOL",
+					"edifactNo": 87
+				},
+				{
+					"providerNo": 12,
+					"shortName": "GT",
+					"edifactNo": 58
+				},
+				{
+					"providerNo": 12,
+					"shortName": "BZ",
+					"edifactNo": 80
+				},
+				{
+					"providerNo": 12,
+					"shortName": "OT",
+					"edifactNo": 56
+				},
+				{
+					"providerNo": 12,
+					"shortName": "HS",
+					"edifactNo": 79
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KBB",
+					"edifactNo": 2219
+				},
+				{
+					"providerNo": 12,
+					"shortName": "KRES",
+					"edifactNo": 540
+				},
+				{
+					"providerNo": 12,
+					"shortName": "LDH",
+					"edifactNo": 59
+				},
+				{
+					"providerNo": 12,
+					"shortName": "TRIR",
+					"edifactNo": 86
+				}
+			]
+		}
+	]
+}

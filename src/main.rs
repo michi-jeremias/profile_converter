@@ -31,7 +31,7 @@ impl Profile {
 struct Parameter {
     providerNo: i8,
     shortName: String,
-    edifactNo: u16,
+    edifactNo: Option<u16>,
 }
 
 impl Parameter {
@@ -45,15 +45,15 @@ impl Parameter {
 }
 
 fn main() {
-
     let files: Vec<String> = get_files_in_dir("./");
+
+    // Select profile
     let mut files_json: Vec<&str> = files.iter()
         .filter(|s| s.contains(".json"))
         .map(|s| &**s)
         .collect();
     files_json.push("Quit");
 
-    // Select profile
     let json_string: String;
     let inquire_file_select = Select::new("Select profiles.json to translate:", files_json)
         .prompt();
@@ -69,13 +69,30 @@ fn main() {
         .map(|s| &**s)
         .collect();
     files_trans.push("Quit");
+    let inquire_translator_select = Select::new("Select source translation:", files_trans)
+        .prompt();
+
+    let source_map_edi_name: HashMap<String, String>;
+    let source_map_name_edi: HashMap<String, String>;
+    match inquire_translator_select {
+        Ok("Quit") => std::process::exit(0),
+        Ok(selection) => (source_map_edi_name, source_map_name_edi) = load_parameter_maps(selection),
+        Err(error) => panic!("Error: {}", error),
+    };
+
+    let mut files_trans: Vec<&str> = files.iter()
+        .filter(|s| s.contains(".trans"))
+        .map(|s| &**s)
+        .collect();
+    files_trans.push("Quit");
     let inquire_translator_select = Select::new("Select target translation:", files_trans)
         .prompt();
 
-    let parameter_map: HashMap<String, String>;
+    let target_map_edi_name: HashMap<String, String>;
+    let target_map_name_edi: HashMap<String, String>;
     match inquire_translator_select {
         Ok("Quit") => std::process::exit(0),
-        Ok(selection) => parameter_map = load_parameter_map(selection),
+        Ok(selection) => (target_map_edi_name, target_map_name_edi) = load_parameter_maps(selection),
         Err(error) => panic!("Error: {}", error),
     };
 
@@ -97,7 +114,7 @@ fn main() {
 
     match deserialize_profiles(&json_string) {
         Ok(mut profiles) => {
-            update_profiles(&mut profiles, &parameter_map, &target_provider.unwrap());
+            update_profiles(&mut profiles, &source_map_name_edi, &target_map_edi_name, &target_provider.unwrap());
             serialize_profiles(&profiles);
         },
         Err(error) => println!("Error: {}", error),
@@ -118,16 +135,23 @@ fn deserialize_profiles(json_string: &String) -> Result<Profiles, serde_json::Er
     serde_json::from_str(json_string)
 }
 
-fn update_profiles(profiles: &mut Profiles, parameter_map: &HashMap<String, String>, provider: &i8) {
+fn update_profiles(profiles: &mut Profiles, source_map: &HashMap<String, String>, target_map: &HashMap<String, String>, provider: &i8) {
 
     for profile in &mut profiles.profiles {
 
         for parameter in &mut profile.parameters {
             parameter.set_provider(provider);
-            let new_name = parameter_map.get(&parameter.edifactNo.to_string());
+            let param_edi = source_map.get(&parameter.shortName);
+            let mut found_edi: String = String::from("-1");
+            match param_edi {
+                None => println!("Edifact {:?}, parameter: {:?} not found in source translation", param_edi, parameter.shortName),
+                Some(edi) => found_edi = edi.to_string(),
+            };
+
+            let new_name = target_map.get(&found_edi);
 
             match new_name {
-                None => println!("Edifact {:?}: no match found (profile: {:?})", &parameter.edifactNo, &profile.name),
+                None => println!("Edifact: {:?}, name: {:?}: no match found (profile: {:?})", &found_edi, &parameter.shortName, &profile.name),
                 Some(name) => {
                     parameter.set_short_name(name);
                 },
@@ -150,9 +174,10 @@ fn serialize_profiles(profiles: &Profiles) {
     }
 }
 
-fn load_parameter_map(path: &str) -> HashMap<String, String> {
+fn load_parameter_maps(path: &str) -> (HashMap<String, String>, HashMap<String, String>) {
     let path = String::from(path);
-    let mut hashmap: HashMap<String, String> = HashMap::new();
+    let mut hashmap_edi_name: HashMap<String, String> = HashMap::new();
+    let mut hashmap_name_edi: HashMap<String, String> = HashMap::new();
     let f = File::open(path).expect("Unable to open file.");
     let reader = BufReader::new(f);
 
@@ -161,9 +186,10 @@ fn load_parameter_map(path: &str) -> HashMap<String, String> {
             .unwrap()
             .to_string();
         let tokens: Vec<&str> = s.split(",").collect();
-        hashmap.insert(tokens[0].to_string(), tokens[1].to_string());
+        hashmap_edi_name.insert(tokens[0].to_string(), tokens[1].to_string());
+        hashmap_name_edi.insert(tokens[1].to_string(), tokens[0].to_string());
     }
-    return hashmap;
+    return (hashmap_edi_name, hashmap_name_edi);
 }
 
 fn load_provider(path: &str) -> Result<i8, ParseIntError > {
