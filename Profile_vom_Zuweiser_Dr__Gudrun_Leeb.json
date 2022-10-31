@@ -1,0 +1,818 @@
+{
+	"docName": "Transfer",
+	"meAddress": "METRANSFER",
+	"profiles": [
+		{
+			"name": "MUKIPA 1 - bis 16. SSW",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "BGS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HIVS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "MKP1"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "RUB-IGG"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "RUB-IGM"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "SD34"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TOXO-IGG"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TOXO-IGM"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TPHA"
+				}
+			]
+		},
+		{
+			"name": "C2 H5 OH",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CDT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GOT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GPT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				}
+			]
+		},
+		{
+			"name": "DIABETES",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HB1"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KRE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				}
+			]
+		},
+		{
+			"name": "GER",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "PTT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PTZ"
+				}
+			]
+		},
+		{
+			"name": "GU norm. Frau",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				}
+			]
+		},
+		{
+			"name": "GU norm. Mann",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				}
+			]
+		},
+		{
+			"name": "HORMONE",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "E2"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FSH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PROG"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PROL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PTH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TSTO"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "VIT D3"
+				}
+			]
+		},
+		{
+			"name": "Impftiter",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "HAV-AKQU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HBS-AKQU"
+				}
+			]
+		},
+		{
+			"name": "LABORINST M\u00c4NNL",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FPSA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "K"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "NA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PSA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "SD34"
+				}
+			]
+		},
+		{
+			"name": "LABORINST WEIBL",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FERR"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "K"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "NA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "SD34"
+				}
+			]
+		},
+		{
+			"name": "LEBERFUNKTION",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "AP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GPT"
+				}
+			]
+		},
+		{
+			"name": "MAGENBYPASS",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "ALB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "AP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "B12"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CRP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FERR"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GPT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HB1"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "K"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KRE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "NA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PTH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PTT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PTZ"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "SD34"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TSH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "VIT D3"
+				}
+			]
+		},
+		{
+			"name": "MAGENBYPASS - NACHSORGE",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "ALB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "AP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "B12"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CRP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FERR"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "FOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GPT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HB1"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "K"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KRE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LDL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "NA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "PTH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "SD34"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TSH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "VIT D3"
+				}
+			]
+		},
+		{
+			"name": "MED SPIEGEL",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CARB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "DIGI"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LAMO"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LI"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "OHCARB"
+				}
+			]
+		},
+		{
+			"name": "MUKIPA 16",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "MKP1"
+				}
+			]
+		},
+		{
+			"name": "MUKIPA 28",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "MKP2"
+				}
+			]
+		},
+		{
+			"name": "OP Vorbereitung Infektionsstatus",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "HBS-AG"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HCV-AK"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HIVS"
+				}
+			]
+		},
+		{
+			"name": "PRIM LEEB",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "AP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CRP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GPT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "RHF"
+				}
+			]
+		},
+		{
+			"name": "Profil 1",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "AP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GPT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KRE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				}
+			]
+		},
+		{
+			"name": "Profil 2",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "CHOL"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GGT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GLU"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "GOT"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KBB"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "KRE"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "LDH"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRI"
+				}
+			]
+		},
+		{
+			"name": "PTZ",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "PTZ"
+				}
+			]
+		},
+		{
+			"name": "RHEUMA",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "ANA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "ASLO"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "C-ANCA"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CCP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CRP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "EPHOR"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HLAB27"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "HS"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "RHF"
+				}
+			]
+		},
+		{
+			"name": "SCHILDDR\u00dcSE",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "SD34"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "SDF3F4"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TAK"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TRAK"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "TSH"
+				}
+			]
+		},
+		{
+			"name": "TU MARKER",
+			"parameters": [
+				{
+					"providerNo": -1,
+					"shortName": "AFP"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CA125"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CA153"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CA199"
+				},
+				{
+					"providerNo": -1,
+					"shortName": "CEA"
+				}
+			]
+		}
+	]
+}
